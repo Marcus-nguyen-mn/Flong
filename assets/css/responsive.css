@@ -1,0 +1,1498 @@
+@media only screen and (max-width: 1919px) {
+    .develop .slide-dev-right.slick-slider{
+        margin-right: 0;
+    }
+}
+@media only screen and (max-width: 1722px) {
+    .develop .slide-dev-right.slick-slider{
+        margin-right: 0;
+    }
+    .develop .dev-row .dev-right{
+        padding: 0 30px;
+    }
+    .develop .dev-row .dev-left{
+        padding: 0 30px;
+    }
+    .develop .dev-row{
+        margin: 0 -30px;
+    }
+    .develop .dev-row{
+        padding-top: 30px;
+    }
+    .develop .dev-row .dev-left::after{
+        top: -30px;
+    }
+    .mc_why_choose .bottom-why .why-row{
+        margin: 0 -30px;
+    }
+    .mc_why_choose .bottom-why .why-row .left-why{
+        padding: 0 30px;
+    }
+    .mc_why_choose .bottom-why .why-row .right-why{
+        padding: 0 30px;
+    }
+    .poha_team .marquee-text .txt{
+        font-size: 100px;
+    }
+    .mc_project .list-pojects{
+        margin: 0 -20px;
+    }
+    .mc_project .list-pojects .item-projects{
+        padding: 0 20px;
+    }
+    .mc-container{
+        max-width: 95%;
+        margin: 0 auto;
+    }
+    .service-contain{
+        max-width: 95%;
+        margin: 0 auto;
+    }
+}
+@media only screen and (max-width: 1560px) {
+    .mc-container{
+        max-width: 95%;
+        margin: 0 auto;
+    }
+    .service-contain{
+        max-width: 95%;
+        margin: 0 auto;
+    }
+    .first_intro video{
+        height: 765px;
+    }
+    .first_intro .first_intro_contain .content-on-fi .title-fi{
+        font-size: 50px;
+        line-height: 65.8px;
+    }
+    .first_intro .first_intro_contain .content-on-fi .desc-fi{
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .companion .companion-cover{
+        font-size: 13px;
+    }
+    .poha_team .marquee-text .txt{
+        font-size: 95px;
+    }
+    .customer-talk .out-tc{
+        margin: 0 -20px;
+        margin-bottom: 30px;
+    }
+    .customer-talk .out-tc .item{
+        padding: 0 20px;
+    }
+    .mc_question .mc_question_cover{
+        margin: 0 -20px;
+    }
+    .mc_question .mc_question_cover .left_question{
+        padding: 0 20px;
+    }
+    .mc_question .mc_question_cover .right_question{
+        padding: 0 20px;
+    }
+    .mc_question .mc_question_cover .right_question .right_question_cover{
+        margin: 0 -15px;
+    }
+    .mc_question .mc_question_cover .right_question .banner_mh_quest{
+        padding: 0 15px;
+    }
+    .mc_question .mc_question_cover .right_question .cover-answer{
+        padding: 0 15px;
+        padding-top: 60px;
+    }
+    .header-contain .logo{
+        flex: 0 0 15%;
+        max-width: 15%;
+    }
+    .header-contain .right-info-header{
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+}
+@media only screen and (max-width: 1366px) {
+    .first_intro video{
+        height: 600px;
+    }
+    .first_intro .first_intro_contain .content-on-fi .title-fi{
+        font-size: 35px;
+        line-height: 46.8px;
+    }
+    .first_intro .first_intro_contain .content-on-fi{
+        max-width: 550px;
+    }
+    .first_intro_contain .comment-your-prject{
+        width: 134px;
+        height: 134px;
+        right: 17%;
+        font-size: 10px;
+        line-height: 14.2px;
+    }
+    .mc-service .item-service .name-service{
+        font-size: 42px;
+        line-height: 54.8px;
+    }
+    .mc-service .item-service .num{
+        font-size: 20px;
+    }
+    .develop .develop_title{
+        font-size: 40px;
+    }
+    .develop .dev-row .dev-left::after{
+        height: 364px;
+    }
+    .mc_why_choose .right-why-row{
+        margin: 0 -20px;
+    }
+    .mc_why_choose .right-col-4{
+        padding: 0 20px;
+    }
+    .mc_why_choose .right-col-8{
+        padding: 0 20px;
+    }
+    .poha_team .marquee-text .txt{
+        font-size: 85px;
+    }
+    .mc_project .list-pojects .item-projects .thumb-projects img{
+        height: 380px;
+    }
+    .abu-popup-video iframe{
+        height: 550px;
+    }
+    .mc-archive .item-post .thumb-post img{
+        height: 365px;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .first_intro_contain .comment-your-prject{
+        right: 12%;
+    }
+    .develop .develop_title{
+        padding-top: 55px;
+    }
+    .develop{
+        padding-bottom: 100px;
+    }
+    .develop .dev-right .slide-dev-right .item .item-content-cover .name-dev{
+        font-size: 16px;
+    }
+    .develop .dev-right .slide-dev-right .item .item-content-cover .desc-item-dev{
+        font-size: 12px;
+    }
+    .develop .desc-dev{
+        font-size: 15px;
+    }
+    .mc-service{
+        padding: 48px 0 55px 0;
+    }
+    .mc_why_choose .mc-why-title{
+        font-size: 40px;
+        line-height: 50.8px;
+    }
+    .mc_why_choose .mc-why-desc{
+        font-size: 22px;
+        line-height: 30.6px;
+    }
+    .develop{
+        margin-bottom: 95px;
+    }
+    .content-why-row .item-content-why .number-and-arrow{
+        margin-bottom: 22px;
+    }
+    .poha_team .marquee-text .txt{
+        font-size: 75px;
+    }
+    .poha_team .list-member .my-slider-team img{
+        height: 246px;
+    }
+    .poha_team .list-member .my-slider-team .name{
+        font-size: 20px;
+    }
+    .blog .list_post_blog .thumbnail-blog img{
+        height: 162px;
+    }
+    .blog .list_post_blog .title-post{
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .header{
+        display: none;
+    }
+    .mc_header_mob{
+        display: block;
+    }
+    .abu-popup-video iframe{
+        height: 490px;
+    }
+    .mc-archive .list-posts{
+        margin: 0 -20px;
+    }
+    .mc-archive .item-post{
+        padding: 0 20px;
+    }
+    .mcnq_info_contact_page .banner-and-title .archive-main-title{
+        font-size: 40px;
+        line-height: 52.8px;
+    }
+    .sing-container{
+        max-width: 95%;
+        margin: 0 auto;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .first_intro .first_intro_contain .content-on-fi .desc-fi{
+        font-size: 10px;
+        line-height: 19px;
+    }
+    .mc-partner .item-partner .logo-partner img{
+        height: 36px;
+    }
+    .mc-partner{
+        max-height: 78px;
+        overflow: hidden;
+    }
+    .mc-service .item-service .name-service{
+        font-size: 34px;
+        line-height: 48.8px;
+    }
+    .mc-service .item-service .num{
+        font-size: 18px;
+    }
+    .mc-service .item-service .num{
+        left: -58px;
+    }
+    .mc-service .item-service .list-ser-detail .item-ser-detail{
+        font-size: 11px;
+    }
+    .mc-service .item-service .desc-service{
+        font-size: 14px;
+    }
+    .mc-service .item-service .list-ser-detail{
+        margin-bottom: 14px;
+    }
+    .mc-service .item-service .desc-service{
+        margin-bottom: 18px;
+    }
+    .mc-service .item-service .link-service .text{
+        font-size: 12px;
+    }
+    .mc-service .item-service{
+        margin-bottom: 18px;
+    }
+    .mc_why_choose .mc-why-desc{
+        font-size: 18px;
+        line-height: 25.6px;
+        max-width: 545px;
+    }
+    .poha_team .marquee-text .txt{
+        font-size: 65px;
+        line-height: 80px;
+    }
+    .mc_project{
+        padding: 70px 0 85px 0;
+    }
+    .poha_team{
+        margin-bottom: 90px;
+    }
+    .mc_project .title-and-link-projects .title-projects{
+        font-size: 40px;
+        line-height: 50.8px;
+    }
+    .mc_project .title-and-link-projects .link-project-cover{
+        padding: 12px 16px;
+    }
+    .mc_project .list-cat-projects{
+        margin-bottom: 34px;
+    }
+    .mc_project .list-pojects::before{
+        height: calc(100% + 34px);
+        top: -34px;
+    }
+    .mc_project .list-pojects .item-projects .thumb-projects img{
+        height: 290px;
+    }
+    .mc_project{
+        margin-bottom: 100px;
+    }
+    .customer-talk .title-customer-talk{
+        font-size: 40px;
+        line-height: 50.8px;
+    }
+    .customer-talk .out-tc{
+        margin: 0 -10px;
+        margin-bottom: 30px;
+    }
+    .customer-talk .out-tc .item{
+        padding: 0 10px;
+    }
+    .lct-col{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .customer-talk .lct-col-3, .customer-talk .lct-col-4, .customer-talk .lct-col-5{
+        display: none;
+    }
+    .customer-talk .list-customer-talk-cover{
+        height: 600px;
+    }
+    .customer-talk{
+        margin-bottom: 90px;
+    }
+    .mc_question .title_question{
+        font-size: 40px;
+        line-height: 50.8px;
+    }
+    .mc_question .mc_question_cover .right_question .cover-answer .answer{
+        font-size: 15px;
+        line-height: 23.2px;
+    }
+    .blog .title-blog{
+        font-size: 40px;
+        line-height: 50.8px;
+    }
+    .mc_question{
+        margin-bottom: 100px;
+    }
+    .txt-and-form .right-taf .title-form{
+        font-size: 40px;
+        line-height: 50.8px;
+    }
+    .txt-and-form .taf-row .dau-and-txt .txt{
+        font-size: 20px;
+        line-height: 30.6px;
+    }
+    .txt-and-form .taf-row .dau-and-txt{
+        margin-bottom: 80px;
+    }
+    .mc_header_mob{
+        display: block;
+    }
+    .abu_video .abu-vide-cover .abu-title-video{
+        font-size: 40px;
+        line-height: 50.8px;
+    }
+    .abu-popup-video iframe{
+        height: 420px;
+    }
+    .intro-service .left-img{
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding-right: 0;
+    }
+    .intro-service .right-content{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .intro-service .left-img img{
+        margin: 0 auto;
+    }
+    .intro-service{
+        padding: 75px 0 80px 0;
+    }
+    .intro-service .title-intro-service{
+        font-size: 35px;
+        line-height: 46.8px;
+    }
+    .intro-service .desc-intro-service{
+        font-size: 18px;
+        line-height: 26.6px;
+        max-width: 624px;
+    }
+    .intro-service .serp-row{
+        padding-top: 52px;
+    }
+    .ser_help_you .ser-title-hy{
+        font-size: 35px;
+        line-height: 46.8px;
+        padding-bottom: 25px;
+    }
+    .ser_help_you .left-form{
+        padding-right: 20px;
+    }
+    .ser_help_you .right-hy{
+        max-width: 72%;
+    }
+    .ser_help_you .hy-row{
+        padding-top: 35px;
+    }
+    .ser_help_you .left-form::after{
+        top: -35px;
+        height: calc(100% + 35px);
+    }
+    .ser_help_you .right-hy .right-hy-cover .item{
+        max-width: 48%;
+        margin-bottom: 30px;
+    }
+    .ser_help_you{
+        margin-bottom: 100px;
+    }
+    .mc_question.ser_page .title_question{
+        line-height: 67.8px;
+    }
+    .ser_rating_web .srw_title{
+        font-size: 35px;
+        line-height: 46.8px;
+    }
+    .ser_rating_web .srw_desc{
+        font-size: 18px;
+        line-height: 26.6px;
+    }
+    .ser_choose_for_you .scf_title{
+        font-size: 40px;
+        line-height: 50.8px;
+    }
+    .ser_choose_for_you .scf-row .scf-col{
+        max-width: 30%;
+    }
+    .ser_choose_for_you .scf-row .scf-col:after{
+        right: -24px;
+    }
+    .ser_choose_for_you .scf-col .desc-and-price .desc{
+        font-size: 14px;
+    }
+    .ser_choose_for_you .scf-col .desc-and-price .price{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .ser_choose_for_you .scf-col .item-detail-ser .txt{
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .mc-archive .item-post .thumb-post img{
+        height: 280px;
+    }
+    .mc-archive .archive-banner-and-title .archive-main-title{
+        font-size: 42px;
+        line-height: 56.8px;
+    }
+    .mc-archive .item-post .title-and-arrow-one-projects .title-item{
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .mcnq_info_contact_page .mc_info_contact_page .mccp_title_info{
+        font-size: 24px;
+        line-height: 35px;
+    }
+    .hsp-content-cover .project-lq .thumb-projects img{
+        height: 190px;
+    }
+}
+@media only screen and (max-width: 876px){
+    .first_intro .first_intro_contain .content-on-fi .title-fi{
+        font-size: 30px;
+        line-height: 42.8px;
+    }
+    .first_intro .first_intro_contain .content-on-fi .desc-fi{
+        max-width: 300px;
+    }
+    .develop .dev-row .dev-left{
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: 0;
+    }
+    .develop .dev-row .dev-right{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .develop .desc-dev{
+        margin-bottom: 22px;
+    }
+    .develop .more-dev{
+        margin-left: auto;
+    }
+    .develop .dev-row .dev-left{
+        margin-bottom: 30px;
+    }
+    .develop .dev-row .dev-right{
+        padding: 0;
+    }
+    .develop .dev-row{
+        margin: 0;
+    }
+    .develop .dev-row .dev-left::after{
+        display: none;
+    }
+    .mc_why_choose .bottom-why .why-row{
+        margin: 0 -15px;
+    }
+    .mc_why_choose .bottom-why .why-row .left-why{
+        padding: 0 15px;
+    }
+    .mc_why_choose .bottom-why .why-row .right-why{
+        padding: 0 15px;
+    }
+    .mc_why_choose .right-why-row{
+        margin: 0 -10px;
+    }
+    .mc_why_choose .right-col-4{
+        padding: 0 10px;
+    }
+    .mc_why_choose .right-col-8{
+        padding: 0 10px;
+    }
+    .content-why-row .item-content-why .number-and-arrow .num{
+        font-size: 30px;
+        line-height: 42.8px;
+    }
+    .content-why-row .item-content-why .number-and-arrow .arrow img{
+        width: 15px;
+    }
+    .content-why-row .item-content-why .number-and-arrow{
+        margin-bottom: 12px;
+    }
+    .content-why-row .item-content-why .content{
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .mc_why_choose .right-col-8 .content-why-row .item-content-why{
+        margin-bottom: 26px;
+    }
+    .mc_why_choose .bottom-why .why-row .left-why .long-desc-why{
+        font-size: 14px;
+    }
+    .poha_team .marquee-text .txt{
+        font-size: 45px;
+    }
+    .mc_project .list-pojects .item-projects .thumb-projects img{
+        height: 220px;
+    }
+    .mc_project .list-pojects .item-projects .title-and-arrow-one-projects .title-item{
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .mc_question .mc_question_cover .left_question{
+        flex: 0 0 50%;
+        max-width: 50%;
+        padding: 0 10px;
+    }
+    .mc_question .mc_question_cover{
+        margin: 0 -20px;
+    }
+    .mc_question .mc_question_cover .right_question{
+        flex: 0 0 50%;
+        max-width: 50%;
+        padding: 0 10px;
+    }
+    .mc_question .mc_question_cover .right_question .right_question_cover{
+        margin: 0 ;
+    }
+    .mc_question .mc_question_cover .right_question .banner_mh_quest{
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: 0;
+    }
+    .mc_question .mc_question_cover .right_question .cover-answer{
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: 0;
+    }
+    .mc_question .mc_question_cover .right_question .banner_mh_quest img{
+        display: none;
+    }
+    .blog .list_post_blog .title-post{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .txt-and-form .taf-row .dau-and-txt .txt{
+        flex: 0 0 80%;
+        max-width: 80%;
+    }
+    .footer .footer-row{
+        margin: 0 -10px;
+    }
+    .footer .footer-row .footer-col{
+        flex: 0 0 50%;
+        max-width: 50%;
+        padding: 0 10px;
+        margin-bottom: 30px;
+    }
+    .one-col-footer-abu{
+        padding-left: 0;
+    }
+    .main-foot{
+        padding-bottom: 10px;
+    }
+    .mc_menu_mob{
+        width: 70%;
+    }
+    .abu-popup-video iframe{
+        height: 334px;
+    }
+    .ser_help_you .left-form{
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 40px;
+        padding-right: 0;
+    }
+    .ser_help_you .left-form .hy-desc{
+        text-align: center;
+    }
+    .ser_help_you .left-form::after{
+        display: none;
+    }
+    .ser_help_you .right-hy{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .ser_rating_web .left-img{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .ser_rating_web .right-content{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .ser_rating_web .left-img img{
+        max-width: 70%;
+        margin: 0 auto;
+    }
+    .ser_choose_for_you .scf-row .scf-col{
+        flex: 0 0 50%;
+        max-width: 48%;
+    }
+    .ser_choose_for_you .scf-row .scf-col:after{
+        right: -15px;
+    }
+    .ser_choose_for_you .scf-row .scf-col:nth-child(2):after{
+        display: none;
+    }
+    .ser_rating_web{
+        margin-bottom: 40px;
+    }
+    .blog.ser_projects{
+        padding-bottom: 100px;
+    }
+    .ser_choose_for_you .scf-row .scf-col{
+        margin-bottom: 30px;
+    }
+    .ser_choose_for_you{
+        margin-bottom: 100px;
+    }
+    .mc-archive .archiv-pr-cover{
+        padding: 70px 0;
+    }
+    .mc-archive .list-posts{
+        margin: 0 -10px;
+    }
+    .mc-archive .item-post{
+        padding: 0 10px;
+    }
+    .mc-archive .item-post .thumb-post img{
+        height: 224px;
+    }
+    .mcnq_info_contact_page .mc_info_contact_page .mccp_title_info{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .hsp-content-cover .project-lq .thumb-projects img{
+        height: 150px;
+    }
+    .single_projects .left-content .hsp-button .register-project{
+        width: 136px;
+    }
+    .single_projects .left-content .hsp-button .view-live{
+        width: 136px;
+    }
+    .single_projects .hsp-row .left-content{
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 50px;
+    }
+    .single_projects .hsp-row .right-img{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .mc-partner .item-partner .logo-partner img{
+        width: 60px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .first_intro_contain .comment-your-prject{
+        right: 30px;
+    }
+    .develop .dev-right .slide-dev-right .item .item-content-cover .desc-item-dev{
+        min-height: 78px;
+    }
+    .mc_why_choose .why_top{
+        margin-bottom: 30px;
+    }
+    .mc_why_choose .bottom-why .why-row .left-why::after{
+        top: -30px;
+    }
+    .mc_why_choose .bottom-why .why-row .left-why{
+        flex: 0 0 100%;
+        max-width: 100%;    
+        padding: 0;
+    }
+    .mc_why_choose .bottom-why .why-row .right-why{
+        flex: 0 0 100%;
+        max-width: 100%;  
+        padding: 0;
+    }
+    .mc_why_choose .bottom-why .why-row{
+        margin: 0;
+    }
+    .mc_why_choose .bottom-why .why-row .left-why .long-desc-why{
+        margin-bottom: 25px;
+    }
+    .mc_why_choose .bottom-why .btn-read-more{
+        margin-left: auto;
+    }
+    .mc_why_choose .bottom-why .why-row .left-why{
+        margin-bottom: 35px;
+    }
+    .mc_why_choose .bottom-why .why-row .left-why::after{
+        display: none;
+    }
+    .poha_team .team_title_desc .team-row .right-desc{
+        font-size: 14px;
+        line-height: 24.2px;
+    }
+    .poha_team .team_title_desc .team-row .left-title{
+        max-width: 25%;
+    }
+    .mc_why_choose{
+        margin-bottom: 50px;
+    }
+    .txt-and-form .taf-row .taf-col{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .txt-and-form .taf-row .dau-and-txt .txt{
+        flex: 0 0 94%;
+        max-width: 94%;
+    }
+    .txt-and-form .ceo-footer .name-positon{
+        flex: 0 0 70%;
+        max-width: 70%;
+    }
+    .txt-and-form .ceo-footer .name-positon{
+        padding-left: 90px;
+    }
+    .blog{
+        padding-bottom: 100px;
+    }
+    .abu-vide-cover .img-ic-open-video img{
+        width: 130px;
+        height: 130px;
+    }
+    .mc-archive.mc_search_page .archive-banner-and-title .archive-main-title{
+        font-size: 30px;
+        line-height: 44.8px;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .btn-show-project .num-and-ic .num{
+        font-size: 20px;
+    }
+    .btn-show-project .num-and-ic .icon{
+        width: 12px;
+    }
+    .btn-show-project p{
+        font-size: 12px;
+        line-height: 12.4px;
+    }
+    .first_intro .first_intro_contain .content-on-fi{
+        max-width: unset;
+        width: 90%;
+    }
+    .first_intro video{
+        height: 500px;
+    }
+    .first_intro .first_intro_contain .content-on-fi .title-fi{
+        font-size: 20px;
+        line-height: 28.8px;
+    }
+    .first_intro .first_intro_contain .content-on-fi .desc-fi{
+        max-width: 250px;
+    }
+    .first_intro_contain .comment-your-prject{
+        right: 12px;
+        bottom: 12px;
+        width: 110px;
+        height: 110px;
+    }
+    .first_intro_contain .comment-your-prject{
+        font-size: 9px;
+        line-height: 12.2px;
+    }
+    .first_intro_contain .comment-your-prject .ic-arrown{
+        margin-bottom: 10px;
+    }
+    .first_intro_contain .comment-your-prject img{
+        width: 12px;
+    }
+    .companion .companion-cover{
+        font-size: 12px;
+    }
+    .first_intro .first_intro_contain .companion{
+        bottom: 20px;
+    }
+    .companion .companion-cover::before{
+        top: 6px;
+    }
+    .mc-partner .item-partner .logo-partner img{
+        height: 24px;
+        width: 100px;
+    }
+    .mc-partner{
+        max-height: 65px;
+    }
+    .mc-service .ser-cover .left-banner{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .mc-service .ser-cover .right-content{
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-top: -50px;
+        position: relative;
+        z-index: 3;
+    }
+    .mc-service .ser-cover .left-banner img{
+        max-width: 95%;
+        margin: 0 auto;
+    }
+    .mc-container{
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    .service-contain{
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    .mc-service .item-service .name-service{
+        font-size: 26px;
+        line-height: 32.8px;
+    }
+    .mc-service .item-service .list-ser-detail .item-ser-detail{
+        font-size: 10px;
+        padding: 4px 16px;
+    }
+    .mc-service .item-service .desc-service{
+        font-size: 13px;
+        margin-bottom: 14px;
+    }
+    .mc-service .item-service .link-service img{
+        width: 25px;
+        height: 25px;
+    }
+    .develop .develop_title{
+        font-size: 26px;
+        line-height: 36.8px;
+    }
+    .develop .more-dev{
+        width: 168px;
+        padding: 12px;
+        font-size: 11px;
+    }
+    .develop .dev-right .slide-dev-right .item .thumb-dev img{
+        height: 170px;
+    }
+    .mc-service{
+        padding: 35px 0 40px 0;
+    }
+    .develop{
+        padding-bottom: 75px;
+        border-radius: 16px;
+        margin-bottom: 65px;
+    }
+    .mc_why_choose .mc-why-title{
+        font-size: 24px;
+        line-height: 36.8px;
+        margin-bottom: 14px;
+    }
+    .mc_why_choose .mc-why-desc{
+        font-size: 15px;
+        line-height: 24.6px;
+        max-width: 100%;
+    }
+    .mc_why_choose .mc-why-desc{
+        padding-bottom: 24px;
+    }
+    .mc_why_choose .bottom-why .why-row .left-why .long-desc-why{
+        line-height: 23.2px;  
+    }
+    .mc_why_choose .bottom-why .btn-read-more{
+        padding: 12px 16px;
+    }
+    .mc_why_choose .right-why-row{
+        margin: 0;
+    }
+    .mc_why_choose .right-col-4{
+        padding: 0;
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 40px;
+    }
+    .mc_why_choose .right-col-8{
+        padding: 0;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .mc_why_choose .right-col-4 img{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .content-why-row .item-content-why .content{
+        font-family: 'BE-Light';
+    }
+    .poha_team .marquee-text .txt{
+        font-size: 24px;
+        line-height: 35px;
+    }
+    .mc_why_choose{
+        margin-bottom: 30px;
+    }
+    .poha_team .team_title_desc .team-row .left-title{
+        flex: 0 0 100%;
+        max-width: 100%;
+        order: 2;
+    }
+    .poha_team .team_title_desc .team-row .right-desc{
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+    .poha_team .marquee-text{
+        margin-bottom: 14px;
+    }
+    .space-tt{
+        margin: 25px 0 28px 0;
+    }
+    .mc_project{
+        border-radius: 16px;
+    }
+    .mc_project .title-and-link-projects .title-projects{
+        font-size: 24px;
+        line-height: 36.8px;
+    }
+    .mc_project .title-and-link-projects .title-projects{
+        flex: 0 0 40%;
+        max-width: 40%;
+    }
+    .mc_project .title-and-link-projects .link-project-cover{
+        padding: 11px 16px;
+        font-size: 11px;
+        width: 130px;
+    }
+    .mc_project .list-cat-projects .item-cat-project{
+        font-size: 10px;
+        padding: 4px 16px;
+    }
+    .mc_project .list-pojects::before{
+        display: none;
+    }
+    .mc_project .list-pojects{
+        margin: 0;
+    }
+    .mc_project .list-pojects .item-projects{
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: 0;
+    }
+    .mc_project .list-pojects .item-projects .desc-item-project{
+        font-size: 14px;
+    }
+    .mc_project .list-pojects .item-projects .title-and-arrow-one-projects .title-item{
+        font-size: 20px;
+    }
+    .mc_project .list-pojects .item-projects .thumb-projects img{
+        height: 210px;
+    }
+    .mc_project .list-pojects .item-projects{
+        margin-bottom: 48px;
+    }
+    .mc_project .list-pojects .item-projects .item-projects-cover{
+        border-bottom: 1px solid #585858;
+        padding-bottom: 48px;
+    }
+    .mc_project .list-pojects .item-projects:last-child .item-projects-cover{
+        border-bottom: 0;
+        padding-bottom: 0;
+    }
+    .mc_project{
+        padding: 70px 0 38px 0;
+    }
+    .customer-talk .out-tc .item-cover{ 
+        padding-left: 24px;
+    }
+    .customer-talk .out-tc .item-cover .number{
+        font-size: 12px;
+        line-height: 16.4px;
+    }
+    .customer-talk .out-tc{
+        padding-top: 14px;
+    }
+    .customer-talk .out-tc .item::after{
+        top: -14px;
+        height: calc(100% + 14px);
+    }
+    .customer-talk .out-tc .item-cover .title-tc{
+        font-size: 8px;
+        line-height: 17.2px;
+    }
+    .customer-talk .title-customer-talk{
+        font-size: 24px;
+        line-height: 36.8px;
+    }
+    .mc_project{
+        margin-bottom: 70px;
+    }
+    .customer-talk .list-customer-talk-cover{
+        height: 375px;
+    }
+    .customer-talk .list-customer-talk{
+        padding: 50px 0;
+        border-radius: 20px;
+    }
+    .mc_question .mc_question_cover .left_question{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .mc_question .mc_question_cover .right_question{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .mc_question .mc_question_cover .left_question::after{
+        display: none;
+    }
+    .mc_question .mc_question_cover .left_question .left_quest_cover{
+        padding-top: 38px;
+    }
+    .mc_question .mc_question_cover .right_question .right_question_cover{
+        padding-top: 26px;
+    }
+    .mc_question .title_question{
+        font-size: 24px;
+        line-height: 36.8px;
+    }
+    .customer-talk{
+        margin-bottom: 60px;
+    }
+    .mc_question .mc_question_cover .right_question .banner_mh_quest .txt{
+        font-size: 24px;
+        line-height: 30.2px;
+    }
+    .mc_question{
+        margin-bottom: 60px;
+    }
+    .blog .title-blog{
+        font-size: 24px;
+        line-height: 36.8px;
+        text-transform: uppercase;
+    }
+    .blog .list_cat_blog .item-cat-blog{
+        font-size: 10px;
+        padding: 4px 16px;
+    }
+    .blog .list_post_blog .thumbnail-blog img{
+        height: 100px;
+    }
+    .blog .list_post_blog .title-post{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .blog .list_post_blog .cat-and-date .cat{
+        font-size: 10px;
+        padding: 4px 16px;
+    }
+    .blog .list_post_blog .cat-and-date .date{
+        font-size: 10px;
+    }
+    .blog{
+        padding-bottom: 65px;
+    }
+    .txt-and-form{
+        padding: 70px 0;
+    }
+    .txt-and-form .taf-row .dau-and-txt .dau img{
+        width: 30px;
+    }
+    .txt-and-form .taf-row .dau-and-txt .txt{
+        font-size: 16px;
+        line-height: 25.6px;
+    }
+    .txt-and-form .ceo-footer .name-positon{
+        padding-left: 0;
+    }
+    .txt-and-form .ceo-footer .name-positon{
+        flex: 0 0 60%;
+        max-width: 60%;
+    }
+    .txt-and-form .ceo-footer .ceo-img{
+        flex: 0 0 40%;
+        max-width: 40%;
+    }
+    .txt-and-form .right-taf .title-form{
+        font-size: 24px;
+        line-height: 36.8px;
+    }
+    .txt-and-form .form-footer .inp-sty input{
+        padding: 10px 12px;
+        font-size: 14px;
+    }
+    .txt-and-form .form-footer .inp-sty-note input{
+        padding: 10px 12px;
+        font-size: 14px;
+    }
+    .txt-and-form .btn-sub-form button{
+        padding: 10px 12px;
+    }
+    .txt-and-form .ceo-footer .name-positon .name{
+        font-size: 16px;
+        line-height: 25.2px;
+    }
+    .footer .footer-row{
+        margin: 0;
+    }
+    .footer .footer-row .footer-col{
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: 0;
+        margin-bottom: 30px;
+    }
+    .bottom-footer .bf-logo{
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+    .bottom-footer .list-social-bf{
+        flex: 0 0 80%;
+        max-width: 80%;
+    }
+    .copy-right-poha{
+        line-height: 20px;
+    }
+    .mc_header_mob_cover .center-logo img{
+        width: 70px;
+    }
+    .mc_header_mob_cover .left-ic-open-menu{
+        font-size: 22px;
+    }
+    .mc_menu_mob{
+        width: 80%;
+    }
+    .mc_menu_mob{
+        padding: 22px;
+    }
+    .mc_menu_mob .ic-close-menu-mob{
+        font-size: 16px;
+        width: 40px;
+        height: 40px;
+        margin-bottom: 5px;
+    }
+    .mc_menu_mob .logo_menu_mob img{
+        width: 90px;
+    }
+    .mc_menu_mob .logo_menu_mob{
+        margin-bottom: 25px;
+    }
+    .mc_menu_mob .mc_menu_mob_cover ul li a{
+        font-size: 16px;
+        padding: 8px 0;
+    }
+    .mc_menu_mob_cover .mega-popup .mega-popup-contain .mega-item img{
+        height: 60px;
+    }
+    .mc_menu_mob_cover .mega-popup .mega-popup-contain .mega-item .mega-item-title{
+        font-size: 12px;
+    }
+    .popup_form_right{
+        width: 80%;
+    }
+    .popup_form_right .clos-pop{
+        width: 40px;
+        height: 40px;
+    }
+    .popup_form_right .pfr_title{
+        font-size: 24px;
+    }
+    .popup_form_right .pfr_desc{
+        font-size: 12px;
+    }
+    .pfr_form_cover .inp-sty{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .pfr_form_cover .inp-sty input{
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+    .pfr_form_cover .inp-sty-note input{
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+    .pfr_form .btn-sub-form button{
+        width: 130px;
+        padding: 10px 16px;
+        font-size: 12px;
+    }
+    .list-service{
+        padding-left: 42px;
+    }
+    .mc-service .item-service .num{
+        left: -45px;
+    }
+    .abu_video .abu-vide-cover .left-txt{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .abu_video .abu-vide-cover .right-video{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .abu_video {
+        padding: 30px 0 65px 0;
+    }
+    .abu_video .abu-vide-cover .abu-title-video{
+        font-size: 28px;
+        line-height: 36.8px;
+    }
+    .abu_video .abu-vide-cover .right-video .right-video-cover{
+        justify-content: center;
+    }
+    .abu-vide-cover .right-video .right-video-cover .img-ic-open-video{
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 25px;
+        margin-right: 0;
+    }
+    .abu-vide-cover .small-txt-video{
+        flex: 0 0 100%;
+        max-width: 100%;
+        text-align: center;
+    }
+    .abu-vide-cover .img-ic-open-video img{
+        margin: 0 auto;
+    }
+    .abu_video .abu-vide-cover .abu-desc-video{
+        margin-bottom: 20px;
+    }
+    .abu-popup-video{
+        width: 90%;
+    }
+    .abu-popup-video iframe{
+        height: 220px;
+    }
+    .img_empl_and_company{
+        margin-bottom: 65px;
+    }
+    .abu_solution .answer h3{
+        font-size: 24px;
+        line-height: 34.2px;
+        margin-bottom: 20px;
+    }
+    .abu_solution .cover-answer p{
+        font-size: 16px;
+        line-height: 24.2px;
+    }
+    .mc_question.abu_solution .title_question{
+        font-size: 27px;
+    }
+    .poha_team{
+        margin-bottom: 75px;
+    }
+    .intro-service{
+        padding: 44px 0 80px 0;
+    }
+    .intro-service .title-intro-service{
+        font-size: 24px;
+        line-height: 35.8px;
+    }
+    .intro-service .desc-intro-service{
+        font-size: 15px;
+        line-height: 22.6px;
+    }
+    .titl-and-desc-inserp{
+        padding-bottom: 25px;
+    }
+    .intro-service .serp-row{
+        padding-top: 36px;
+    }
+    .intro-service .left-img img{
+        width: 100%;
+    }
+    .intro-service .right-content .item-content .name-step{
+        flex: 0 0 35%;
+        max-width: 35%;
+    }
+    .intro-service .right-content .item-content .detail{
+        flex: 0 0 57%;
+        max-width: 57%;
+    }
+    .intro-service .right-content .item-content .name-step{
+        font-size: 16px;
+        line-height: 24.24px;
+    }
+    .intro-service .right-content .item-content .detail{
+        padding-left: 10px;
+    }
+    .intro-service .right-content .item-content{
+        padding: 30px 0;
+    }
+    .ser_help_you .ser-title-hy{
+        font-size: 24px;
+        line-height: 35.8px;
+        padding-bottom: 20px;
+    }
+    .ser_help_you .hy-row{
+        padding-top: 25px;
+    }
+    .ser_help_you .left-form .hy-desc{
+        text-align: left;
+        font-size: 15px;
+        line-height: 20.2px;
+    }
+    .ser_help_you .right-hy .right-hy-cover .item{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .ser_help_you .right-hy .right-hy-cover .item .item-title{
+        font-size: 20px;
+        line-height: 24.8px;
+    }
+    .ser_help_you .right-hy .right-hy-cover .item .ic-tick{
+        top: 1px;
+    }
+    .ser_help_you{
+        margin-bottom: 50px;
+    }
+    .abu_solution.ser_page{
+        padding: 60px 0 70px 0;
+        border-radius: 10px;
+    }
+    .mc_question.ser_page .title_question{
+        line-height: 42.8px;
+    }
+    .ser_rating_web .srw_title{
+        font-size: 27px;
+        line-height: 46.8px;
+    }
+    .ser_rating_web .srw_desc{
+        font-size: 16px;
+        line-height: 24.2px;
+    }
+    .ser_rating_web .srw_title_and_desc{
+        padding-bottom: 28px;
+    }
+    .ser_rating_web .srw_title{
+        margin-bottom: 10px;
+    }
+    .ser_rating_web .srw_cover{
+        padding-top: 30px;
+    }
+    .ser_rating_web .left-img img{
+        max-width: 100%;
+    }
+    .ser_rating_web .right-content .item-right{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .ser_rating_web .right-content .item-right{
+        margin-bottom: 35px;
+    }
+    .ser_rating_web {
+        margin-bottom: 25px;
+    }
+    .ser_choose_for_you .scf_title{
+        font-size: 24px;
+        line-height: 36.8px;
+        padding-bottom: 14px;
+    }
+    .ser_choose_for_you .scf-row{
+        margin-top: 40px;
+    }
+    .ser_choose_for_you .scf-row .scf-col:after{
+        display: none;
+    }
+    .ser_choose_for_you .scf-row .scf-col{
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 80px;
+    }
+    .ser_choose_for_you{
+        margin-bottom: 25px;
+    }
+    .mc-archive .archiv-pr-cover{
+        padding: 50px 0 70px 0;
+    }
+    .mc-archive .item-post{
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: 0 0px;
+    }
+    .mc-archive .list-posts{
+        margin: 0;
+    }
+    .mc-archive .item-post .thumb-post img{
+        height: 210px;
+    }
+    .mc-archive .item-post .title-and-arrow-one-projects .title-item{
+        font-size: 20px;
+        line-height: 27px;
+    }
+    .mc-archive .item-post .desc-item-project{
+        font-size: 14px;
+    }
+    .mc-col-6{
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: 0;
+    }
+    .mc-row{
+        margin: 0;
+    }
+    .mcnq_info_contact_page_contain{
+        padding: 45px 0;
+    }
+    .mcnq_info_contact_page .mc_info_contact_page .mccp_title_info{
+        padding-bottom: 35px;
+        margin-bottom: 35px;
+    }
+    .mcnq_info_contact_page .mc_info_contact_page .nqcp_time_work{
+        font-size: 12px;
+        margin-bottom: 50px;
+    }
+    .mcnq_info_contact_page .mc_info_contact_page .mccp_sub_title_info{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .mc-archive.mc_search_page .archive-banner-and-title .archive-main-title{
+        font-size: 18px;
+        line-height: 26.8px;
+    }
+    .single_projects .hsc-row .left-content{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .single_projects .hsc-row .right-side-bar{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .single_projects .left-content .sub-title{
+        font-size: 24px;
+    }
+    .single_projects .left-content .main-title{
+        font-size: 34px;
+        margin-bottom: 10px;
+    }
+    .single_projects .head-single-project{
+        padding: 92px 0 35px 0;
+        margin-bottom: 35px;
+    }
+    .single_projects .left-content .sub-desc{
+        font-size: 14px;
+    }
+    .single_projects .left-content .desc{
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .single_projects .hsc-row .left-content{
+        margin-bottom: 60px;
+    }
+    .hsp-content-cover .project-lq .thumb-projects img{
+        height: 225px;
+    }
+}
+@media only screen and (max-width: 438px) {
+}
