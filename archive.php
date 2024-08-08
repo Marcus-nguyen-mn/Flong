@@ -1,14 +1,11 @@
 <?php
-/**
- * Template Name: Products
- */
 get_header();
 ?>
 <section class="list-product-wrapper py-5">
     <div class="container">
         <div class="row mb-5">
             <div class="col-12">
-                <h1 class="title-page text-center mx-auto"><?php echo get_the_title(); ?></h1>
+                <h1 class="title-page text-center mx-auto"><?php echo single_cat_title(); ?></h1>
             </div>
         </div>
         <div class="row">

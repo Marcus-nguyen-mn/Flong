@@ -24,7 +24,7 @@ get_header();
                 ?>
                 <div class="list-products">
                         <?php while($products->have_posts()): $products->the_post();?>
-                            <div class="product" id="product-<?php echo get_the_ID();?>">
+                            <div class="product " id="product-<?php echo get_the_ID();?>">
                                 <a href="<?php the_permalink();?>" class="d-block text-decoration-none">
                                     <div class="product-thumbnail overflow-hidden px-3 px-lg-5">
                                         <img src="<?php echo get_the_post_thumbnail_url();?>" alt="<?php the_title();?>" title="<?php the_title();?>" class="w-100 h-auto">
