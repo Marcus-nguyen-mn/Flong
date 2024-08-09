@@ -448,3 +448,28 @@ img{
     display: block;
     margin-left: 20px;
 }
+.abu_page .abu-page-row .title-page{
+    margin-bottom: 25px;
+}
+.abu_page .abu-page-row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.abu_page .abu-page-row .left{
+    flex: 0 0 45%;
+    max-width: 44%;
+    width: 100%;
+}
+.abu_page .abu-page-row .right{
+    flex: 0 0 55%;
+    max-width: 53%;
+    width: 100%;
+}
+.abu_page .abu-page-row .right img{
+    border-radius: 16px;
+}
+.abu_page{
+    padding: 40px 0;
+}
