@@ -36,7 +36,10 @@
                         <?php endforeach; ?>
                         <?php endif; wp_reset_postdata();?>
                     </div>
+                    
                 </div>
+                <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
             </div>
         </div>
     </div>

@@ -1,7 +1,7 @@
 <div class="mc-service-page">
     <div class="container">
         <div class="row">
-            <div class="col-12">
+            <div class="col-12 serivce-cover">
                 <h3 class="title-page mb-4"><?php echo get_field('title_service'); ?></h3>
                 <div class="related-services swiper">
                     <div class="swiper-wrapper">
@@ -33,6 +33,8 @@
                             <?php endif; wp_reset_postdata();?>
                     </div>
                 </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
             </div>
         </div>
     </div>
