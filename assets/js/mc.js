@@ -2,6 +2,8 @@ jQuery(document).ready(function(){
     sliderBannerTop();
     slider2LightProduct();
     sliderPartner();
+    handlerMenu();
+    hanlderMenuMob();
 });
 function sliderBannerTop(){
     let swiper = new Swiper(".slider-top-cover", {
@@ -60,4 +62,35 @@ function slider2LightProduct(){
             },
           }
       });
+}
+function handlerMenu(){
+  window.addEventListener('scroll', function() {
+    const header = document.getElementById('mcHeader');
+    const fixedMenu = document.getElementById('fixedMenu');
+    if(header){
+      const headerHeight = header.offsetHeight;
+      if (window.scrollY >= headerHeight) {
+          header.style.opacity = '0';
+          fixedMenu.style.opacity = '1';
+      } else {
+          header.style.opacity = '1';
+          fixedMenu.style.opacity = '0';
+      }
+    }
+  });
+}
+function hanlderMenuMob(){
+  let barMob = document.querySelector(".handle-bar-mob");
+  let menuMob = document.querySelector(".menu-mob");
+  let closeMenuMob = document.querySelector(".menu-mob-cls");
+  if(barMob){
+    barMob.onclick = ()=>{
+      menuMob.style.display = "block";      
+    }
+  }
+  if(closeMenuMob){
+    closeMenuMob.onclick = ()=>{
+      menuMob.style.display = "none";      
+    }
+  }
 }
