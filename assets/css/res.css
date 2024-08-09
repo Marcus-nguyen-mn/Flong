@@ -12,6 +12,31 @@
     .mc-slider-top img{
         height: 430px;
     }
+    .mc_home_abu .banner-abu-home{
+        width: 95%;
+        margin-top: 0px;
+    }
+    .mc_home_abu .right .background-abu-home{
+        width: 200px;
+        bottom: 6px;
+    }
+    .mc_home_abu .desc-1{
+        font-size: 14px;
+    }
+    .mc_home_abu .desc-2{
+        font-size: 14px;
+    }
+    .news_home .list-news-home img{
+        height: 360px;
+    }
+    .mc_partner_home .swiper-button-prev{
+        left: 0;
+        box-shadow: 0px 0px 6px #808080f2;
+    }
+    .mc_partner_home .swiper-button-next{
+        right: 0;
+        box-shadow: 0px 0px 6px #808080f2;
+    }
 }
 @media(max-width: 1024px) {
     .mc-slider-top img{
@@ -20,10 +45,36 @@
     .mc_highlight_product .title-and-read-more .title-page{
         font-size: 30px;
     }
+    .maps_home .maps iframe{
+        height: 380px;
+    }
 }
 @media(max-width: 876px) {
     .mc-slider-top img{
         height: 335px;
+    }
+    .abs-home-row .left{
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+    .mc_home_abu .right{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .mc_home_abu .right .background-abu-home{
+        bottom: -32px;
+    }
+    .news_home .list-news-home .item{
+        flex: 0 0 50%;
+        max-width: 49%;
+    }
+    .news_home .list-news-home .item-big {
+        flex: 0 0 50%;
+        max-width: 49%;
+    }
+    .maps_home .maps iframe{
+        height: 320px;
     }
 }
 @media(max-width: 768px) {
@@ -38,5 +89,39 @@
     .mc_highlight_product .title-and-read-more .title-page{
         font-size: 22px;
         line-height: 28px;
+    }
+    .mc_highlight_product{
+        padding: 15px 0 48px 0;
+    }
+    .abs-home-row .left .title{
+        font-size: 26px;
+        line-height: 28px;
+    }
+    .mc_home_abu{
+        padding: 40px 0 79px 0;
+    }
+    .news_home .list-news-home .item{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .news_home .list-news-home .item-big {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .news_home .title-page{
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .news_home .list-news-home img{
+        height: 410px;
+    }
+    .mc_partner_home .title-page{
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .maps_home .address{
+        font-size: 18px;
+        line-height: 26px;
+        text-align: center;
     }
 }

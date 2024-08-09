@@ -34,7 +34,7 @@
                             </a>
                         </div>
                         <?php endforeach; ?>
-                        <?php endif; ?>
+                        <?php endif; wp_reset_postdata();?>
                     </div>
                 </div>
             </div>
