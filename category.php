@@ -5,7 +5,7 @@ get_header();
 <section class="list-news-wrapper py-5">
     <div class="container">
         <div class="row mb-3 mb-lg-4">
-            <div class="col-12 col-lg-10 mx-auto">
+            <div class="col-12 mx-auto">
                 <h1 class="title-page"><?php single_cat_title();?></h1>
             </div>
         </div>
@@ -20,7 +20,7 @@ get_header();
                         if ($post_counter == 1) :
                             // Bài viết đầu tiên kiểu hiển thị A, col-6
                             ?>
-                            <div class="col-12 col-lg-6 ms-auto mb-4 mb-lg-0">
+                            <div class="col-12 col-lg-7 ms-auto mb-4 mb-lg-0">
                                 <div class="post post-first post-custom w-100 h-100 d-block">
                                     <a href="<?php the_permalink();?>" class="d-block overflow-hidden position-relative w-100 h-100">
                                         <img src="<?php echo get_the_post_thumbnail_url();?>" alt="<?php the_title();?>" class="post-thumbnail w-100 h-100 object-fit-cover d-block">
@@ -43,7 +43,7 @@ get_header();
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-12 col-lg-4 me-auto">
+                            <div class="col-12 col-lg-5 me-auto">
                                 <div class="d-flex flex-column gap-4">
                                     <?php elseif ($post_counter == 2 || $post_counter == 3) : ?>
                                         <div class="post post-first">
@@ -78,7 +78,7 @@ get_header();
                     else :
                         // Các bài viết còn lại kiểu hiển thị B
                         ?>
-                        <div class="col-12 col-lg-10 mx-auto mb-4">
+                        <div class="col-12 mx-auto mb-4">
                             <div class="post post-second d-flex flex-column flex-lg-row align-items-center gap-3">
                                 <div class="post-thumb overflow-hidden">
                                     <img src="<?php echo get_the_post_thumbnail_url();?>" alt="<?php the_title(); ?>" class="w-100 h-100 object-fit-cover d-block">
