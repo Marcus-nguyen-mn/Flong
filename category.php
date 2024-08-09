@@ -1,11 +1,11 @@
 ﻿<?php
 get_header();
 ?>
-
+<?php get_template_part('sections/slide-gen'); ?>
 <section class="list-news-wrapper py-5">
     <div class="container">
-        <div class="row mb-5">
-            <div class="col-10 mx-auto">
+        <div class="row mb-3 mb-lg-4">
+            <div class="col-12 col-lg-10 mx-auto">
                 <h1 class="title-page"><?php single_cat_title();?></h1>
             </div>
         </div>
@@ -20,8 +20,8 @@ get_header();
                         if ($post_counter == 1) :
                             // Bài viết đầu tiên kiểu hiển thị A, col-6
                             ?>
-                            <div class="col-12 col-lg-6 ms-auto">
-                                <div class="post post-first w-100 h-100 d-block">
+                            <div class="col-12 col-lg-6 ms-auto mb-4 mb-lg-0">
+                                <div class="post post-first post-custom w-100 h-100 d-block">
                                     <a href="<?php the_permalink();?>" class="d-block overflow-hidden position-relative w-100 h-100">
                                         <img src="<?php echo get_the_post_thumbnail_url();?>" alt="<?php the_title();?>" class="post-thumbnail w-100 h-100 object-fit-cover d-block">
                                         <div class="post-content">
@@ -44,7 +44,7 @@ get_header();
                                 </div>
                             </div>
                             <div class="col-12 col-lg-4 me-auto">
-                                <div class="d-flex flex-column gap-2">
+                                <div class="d-flex flex-column gap-4">
                                     <?php elseif ($post_counter == 2 || $post_counter == 3) : ?>
                                         <div class="post post-first">
                                             <a href="<?php the_permalink();?>" class="d-block overflow-hidden position-relative w-100 h-100">
@@ -78,17 +78,18 @@ get_header();
                     else :
                         // Các bài viết còn lại kiểu hiển thị B
                         ?>
-                        <div class="col-10 mx-auto">
-                            <div class="post post-second d-flex align-items-center gap-2">
-                                <div class="post-thumb">
-                                    <img src="<?php echo get_the_post_thumbnail_url();?>" alt="<?php the_title(); ?>" class="w-100 h-100 object-fit-cover">
+                        <div class="col-12 col-lg-10 mx-auto mb-4">
+                            <div class="post post-second d-flex flex-column flex-lg-row align-items-center gap-3">
+                                <div class="post-thumb overflow-hidden">
+                                    <img src="<?php echo get_the_post_thumbnail_url();?>" alt="<?php the_title(); ?>" class="w-100 h-100 object-fit-cover d-block">
                                 </div>
                                 <div class="post-content">
-
-                                    <h2><?php the_title(); ?></h2>
+                                    <div class="post-date mb-3">Tin đăng: <?php echo get_the_date('\N\g\à\y j \t\há\n\g n \n\ă\m Y')?></div>
+                                    <h3 class="post-title"><?php the_title(); ?></h3>
                                     <div class="entry">
                                         <?php the_excerpt(); ?>
                                     </div>
+                                    <a href="<?php the_permalink();?>" class="btn-detail">Tiếp tục đọc</a>
                                 </div>
                                
                             </div>
@@ -99,8 +100,10 @@ get_header();
                 ?>
                 </div>
             </div>
-            <div class="pagination">
-                <?php the_posts_pagination(); ?>
+            <div class="pagination-wrapper mt-4">
+                <?php  
+                    echo custom_pagination($wp_query);
+                ?>
             </div>
         <?php else : ?>
             <p><?php _e('No posts found in this category.', 'textdomain'); ?></p>

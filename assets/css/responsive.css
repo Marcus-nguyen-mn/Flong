@@ -1,5 +1,26 @@
 @media(max-width: 768px) {
-    .list-products {
+    .list-products, .list-services {
         grid-template-columns: repeat(2, 1fr);
+    }
+    .post-second .post-thumb {
+        width: 100%;
+    }
+    .title-page {
+        font-size: 24px;
+    }
+    .post-custom {
+        height: 506px !important;
+    }
+    .product-images {
+        height: 400px;
+    }
+    .service {
+        height: 208px !important;
+    }
+    .service .post-title {
+        font-size: 12px;
+    }
+    .service-img {
+        height: 130px;
     }
 }

@@ -164,7 +164,7 @@ span.page-numbers.current .my-custom-class{
     outline: none;
     border: none;
 }
-.feature-text {
+.feature-text, .service-content {
     position: absolute;
     bottom: 0;
     right: 0;
@@ -185,10 +185,14 @@ span.page-numbers.current .my-custom-class{
     overflow: hidden;
     border-radius: 20px;
     text-align: justify;
+    z-index: 3;
 }
-.feature-wrapper:hover .feature-text {
+.feature-wrapper:hover .feature-text, .service:hover .service-content {
     width: 100%;
     height: 100%;
+}
+.service:hover >div::before{
+    background: unset;
 }
 .feature-wrapper {
     border-radius: 20px;
@@ -207,7 +211,7 @@ span.page-numbers.current .my-custom-class{
     font-weight: 600;
     line-height: normal;
 }
-.specifications-title {
+.specifications-title, .btn-detail {
     width: fit-content;
     padding: 12px 16px;
     display: flex;
@@ -224,6 +228,7 @@ span.page-numbers.current .my-custom-class{
     font-style: normal;
     font-weight: 600;
     line-height: 24px; /* 150% */
+    text-decoration: none;
 }
 .specifications {
     text-align: justify;
@@ -254,10 +259,10 @@ span.page-numbers.current .my-custom-class{
 .post-first .post-content .post-info .entry p{
     margin-bottom: 0px;
 }
-.post-first a {
+.post-first a, .post-first > div {
     border-radius: 20px;
 }
-.post-first a::before {
+.post-first:not(.service) a::before, .post-first > div::before {
     content: "";
     width: 100%;
     height: 100%;
@@ -270,6 +275,10 @@ span.page-numbers.current .my-custom-class{
     height: 32px;
     border-radius: 999px;
     border: 1px solid var(--color-grey-300, #A7A7A8);
+    z-index: 5;
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
 }
 .readmore-icon:hover{
     background: var(--Primary-500, #E24400);
@@ -285,6 +294,8 @@ span.page-numbers.current .my-custom-class{
     font-weight: 700;
     line-height: 1.4; /* 140% */
     letter-spacing: -0.28px;
+    position: relative;
+    z-index: 1;
 }
 .post-first .post-content .post-info .entry {
     color: var(--color-white-base, #FFF);
@@ -294,4 +305,86 @@ span.page-numbers.current .my-custom-class{
     font-style: normal;
     font-weight: 400;
     line-height: 1.5; /* 150% */
+}
+.post-second .post-thumb {
+    aspect-ratio: 1.5;
+    width: 416px;
+    border-radius: 20px;
+}
+.btn-detail:hover {
+    background-color: #CC3D00;
+    color: #fff;
+}
+.post-second .post-date, .post-second .entry {
+    color: var(--mode-base-600, #52525B);
+
+    /* Text styles/14/14_Regular */
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.4; 
+}
+.post-second .post-title {
+    color: var(--mode-alpha-900, #1A1A1A);
+
+    /* Text styles/24/24_Semi */
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.socical-wrapper a{
+    color: #000;
+
+    /* Text styles/14/14_Regular */
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+    text-decoration: none;
+}
+.single-post-content img, .single-post-content figure {
+    max-width: 100%;
+    margin: 0px auto 10px;
+}
+.single-post-content, .single-post-excerpt {
+    text-align: justify;
+}
+.related-post .post-thumb {
+    aspect-ratio: 1.4;
+    border-radius: 20px;
+}
+.related-post .post-title {
+    color: #000;
+}
+.list-services {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 16px;
+    row-gap: 32px;
+}
+.service {
+    height: 342px !important;
+    z-index: 1;
+}
+.service-img {
+    border-radius: 20px;
+    height: 300px;
+}
+.breadcrumb-wrapper {
+    border-radius: 0px 0px 12px 12px;
+    background: #FFF;
+    box-shadow: 0px 1px 7px 0px rgba(0, 0, 0, 0.12);
+    padding: 20px 8px;
+    width: fit-content;
+    position: absolute;
+    top: 0;
+    left: auto;
+    z-index: 9;
+}
+.breadcrumb a {
+    color: #CC3D00;
 }

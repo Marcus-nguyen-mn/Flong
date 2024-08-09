@@ -13,7 +13,8 @@ $file_includes = [
     'inc/acf-options.php',                  // ACF Option page
     'inc/duplicate.php',              // Dupplicate Post  
     'inc/custom-post-type.php',        // Custom Post Type  
-    'inc/custom-pagination.php'   
+    'inc/custom-pagination.php',
+    'inc/breadcrumb.php' 
 ];
 foreach ($file_includes as $file) {
     if (!$filePath = locate_template($file)) {

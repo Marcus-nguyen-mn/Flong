@@ -12,9 +12,9 @@
 </head>
 
 <body <?php body_class(); ?> id='top'>
+<?php 
+if(!is_front_page()) {
+    get_template_part('sections/breadcrumb');
+}
 
-<?php
-    // wp_nav_menu( array(
-    //     'theme_location' => 'main_menu',
-    // ) );
 ?>

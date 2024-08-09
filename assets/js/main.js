@@ -16,7 +16,7 @@ jQuery(document).ready(function(){
     var relatedProducts = new Swiper(".related-products", {
         loop: true,
         spaceBetween: 10,
-        slidesPerView: 1,
+        slidesPerView: 2,
         freeMode: false,
         breakpoints: {
             640: {
@@ -34,6 +34,54 @@ jQuery(document).ready(function(){
             1280: {
                 slidesPerView: 4,
                 spaceBetween: 20,
+              },
+          },
+    });
+    var relatedPost = new Swiper('.related-posts', {
+      loop: true,
+        spaceBetween: 10,
+        slidesPerView: 1,
+        freeMode: false,
+        breakpoints: {
+            640: {
+              slidesPerView: 2,
+              spaceBetween: 16,
+            },
+            768: {
+              slidesPerView: 3,
+              spaceBetween: 16,
+            },
+            1024: {
+              slidesPerView: 3,
+              spaceBetween: 16,
+            },
+            1280: {
+                slidesPerView: 3,
+                spaceBetween: 16,
+              },
+          },
+    });
+    var relatedService = new Swiper('.related-services', {
+        loop: true,
+        spaceBetween: 10,
+        slidesPerView: 2,
+        freeMode: false,
+        breakpoints: {
+            640: {
+              slidesPerView: 2,
+              spaceBetween: 16,
+            },
+            768: {
+              slidesPerView: 3,
+              spaceBetween: 16,
+            },
+            1024: {
+              slidesPerView: 3,
+              spaceBetween: 16,
+            },
+            1280: {
+                slidesPerView: 4,
+                spaceBetween: 16,
               },
           },
     });

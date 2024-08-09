@@ -11,7 +11,7 @@
             <div class="col-12 col-lg-7">
                 <?php
                     $gallery = get_field('image_gallery');
-                    if(count($gallery) > 0) :
+                    if($gallery) :
                 ?>
                     <div class="product-images">
                         <div class="swiper product-gallery-slider">
@@ -89,6 +89,10 @@
                             $category = $categories[0];
                             $category_link = get_category_link($category->term_id);
                             $category_name = $category->name;
+                        }
+                        $category_ids = array();
+                        foreach ($categories as $cat) {
+                            $category_ids[] = $cat->term_id;
                         }
                     ?>
                     <a href="<?php echo $category_link;?>" class="readmore-link d-flex gap-2 text-decoration-none">

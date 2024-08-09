@@ -52,3 +52,5 @@ function create_taxonomy_theme($title="Category",$slug,$name,$post_type) {
 }
 create_post_type("Sản phẩm","product","product",array( 'title','editor','thumbnail','excerpt','comments'));
 create_taxonomy_theme("Danh mục sản phẩm","product-category","product-category","product");
+create_post_type("Dịch vụ","service","service",array( 'title','editor','thumbnail','excerpt','comments'));
+create_taxonomy_theme("Danh mục Dịch vụ","service-category","service-category","service");
