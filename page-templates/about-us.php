@@ -10,5 +10,6 @@ get_header();
      get_template_part('sections/about-us/about-us'); 
      get_template_part('sections/about-us/tt-banner'); 
      get_template_part('sections/about-us/content-intro'); 
+     get_template_part('sections/about-us/the-world'); 
 ?>
 <?php get_footer();?>

@@ -473,3 +473,33 @@ img{
 .abu_page{
     padding: 40px 0;
 }
+.mc_content_intro{
+    padding: 48px 0;
+}
+.mc_content_intro .content-row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.mc_content_intro .left-big{
+    flex: 0 0 55%;
+    max-width: 54%;
+    width: 100%;
+}
+.mc_content_intro .right-sm{
+    flex: 0 0 45%;
+    max-width: 44%;
+    width: 100%;
+}
+.mc_content_intro .right-big{
+    flex: 0 0 55%;
+    max-width: 54%;
+    width: 100%;
+}
+.mc_content_intro .left-sm{
+    flex: 0 0 45%;
+    max-width: 44%;
+    width: 100%;
+}
