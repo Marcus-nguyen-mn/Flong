@@ -826,3 +826,45 @@ img{
 .serivce-cover{
     position: relative;
 }
+.rating_abu .title-rating{
+    color: #010102;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.rating_abu .desc-rating{
+    text-align: center;
+    margin-bottom: 115px;
+}
+.rating_abu .list_rating{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.rating_abu .list_rating .item{
+    flex: 0 0 33.33%;
+    max-width: 31%;
+    width: 100%;
+    background: #F7F7F7;
+    border-radius: 20px;
+    padding: 78px 16px 16px 16px;
+    position: relative;
+}
+.rating_abu .list_rating .avatar-cs{
+    width: 124px;
+    height: 124px;
+    position: absolute;
+    top: -65px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.rating_abu{
+    padding-bottom: 48px;
+    border-bottom: 1px solid #DEDFE0;
+}
+.rating_abu .star{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}

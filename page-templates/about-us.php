@@ -12,5 +12,6 @@ get_header();
      get_template_part('sections/about-us/tt-banner'); 
      get_template_part('sections/about-us/content-intro'); 
      get_template_part('sections/about-us/the-world'); 
+     get_template_part('sections/about-us/rating'); 
 ?>
 <?php get_footer();?>
